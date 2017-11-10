@@ -9,6 +9,7 @@ public class MainActivity extends AppCompatActivity {
 
     Button btn_feature_1;
     Button btn_feature_2;
+    Button btn_feature_4;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -38,4 +39,13 @@ public class MainActivity extends AppCompatActivity {
             btn_feature_2.setText(R.string.feature_2);
         }
     }
+    /**
+     * feature-4
+     * display Hello
+     * @param view
+     */
+    public void feature4(View view) {
+        btn_feature_4.setText(R.string.feature_4_dis);
+    }
+
 }
